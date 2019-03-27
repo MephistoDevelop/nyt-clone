@@ -168,6 +168,14 @@ main {
   width: 66%;
   margin-top: 36px;
 }
+.icon{
+  padding-right: 25px;
+}
+.icons-container{
+
+}
+
+
 
 .navbar-button:hover {
   background-color: #326891;
@@ -186,11 +194,23 @@ main {
 .share-container {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 44px;
 }
 
 .subheading-container {
   width: 75%;
 }
+.subtitle{
+  margin:16px 0;
+}
+.text-article{
+  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+ font-size: 1.1875rem;
+
+line-height: 1.8125rem;
+color: #333;
+}
+
 
 #author {
   font-weight: 800;
