@@ -135,7 +135,10 @@ main {
 br {
   line-height: 55px;
 }
-
+.article-picture{
+  width: 100%;
+margin:24px 0;
+}
 .main-container {
   display: flex;
   flex-direction: column;
@@ -212,14 +215,24 @@ br {
   margin-bottom: 44px;
 }
 
+.subheading {
+  color: #666;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 0.875rem;
+ 
+  margin-bottom: 8px;
+}
+
 .subheading-container {
   width: 75%;
 }
+
 
 .subtitle {
   margin: 16px 0;
   font-weight: 800;
 }
+
 
 .text-article {
   font-size: 1.1875rem;
@@ -272,13 +285,7 @@ br {
   text-decoration: underline;
 }
 
-#subheading {
-  color: #666;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 0.875rem;
-  line-height: 1.125rem;
-  margin-bottom: 8px;
-}
+
 
 #title {
   margin-top: 44px;
