@@ -132,14 +132,12 @@ main {
   padding-top: 8vh;
 }
 
-.article-img{
-  width: 66%;
-}
-.main-container{
+.main-container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .navbar {
   z-index: 1;
   width: 100%;
@@ -166,6 +164,11 @@ main {
   margin-bottom: 2px;
 }
 
+.content {
+  width: 66%;
+  margin-top: 36px;
+}
+
 .navbar-button:hover {
   background-color: #326891;
 }
@@ -179,9 +182,39 @@ main {
   max-width: 25vw;
   padding-top: 2px;
 }
-.sub-heading-container{
+
+.share-container {
   display: flex;
-  align-items: center;
+  justify-content: space-between;
+}
+
+.subheading-container {
+  width: 75%;
+}
+
+#author {
+  font-weight: 800;
+  color: #333;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  margin-bottom: 24px;
+}
+#article-img {
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+#article-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 90%;
+}
+
+#credits {
+  color: #888;
+  font-size: 0.75rem;
+  letter-spacing: 0.01rem;
 }
 
 #logo {
@@ -196,4 +229,23 @@ main {
 
 #navbar-section:hover {
   text-decoration: underline;
+}
+
+#subheading {
+  color: #666;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  margin-bottom: 8px;
+}
+
+#title {
+  margin-top: 44px;
+  margin-bottom: 24px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 700;
+  font-style: italic;
+  line-height: 2.125rem;
+  color: #121212;
+  font-size: 2.25rem;
 }
