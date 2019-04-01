@@ -171,6 +171,13 @@ br {
   margin: 2.6875rem auto;
 }
 
+.headline {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.375rem;
+  margin-bottom: 16px;
+}
+
 .icon {
   border-radius: 50px;
   min-width: 15px;
@@ -203,12 +210,24 @@ br {
 }
 
 .left-col {
-  min-width: 66%;
+  min-width: 70%;
   min-height: 100px;
 }
 
 .more-content-container {
   display: flex;
+  margin-right: 24px;
+}
+
+.most-popular-title {
+  border-top: 1px solid rgb(226, 226, 226);
+  border-bottom: 1px solid rgb(226, 226, 226);
+  padding: 15px 0px;
+  color: rgb(18, 18, 18);
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.375rem;
 }
 
 .navbar {
@@ -247,6 +266,12 @@ br {
 
 .no-margin {
   margin: 0 !important;
+}
+
+.right-col {
+  width: 100%;
+  border-top: 1px solid rgb(0, 0, 0);
+  padding: 15px 0;
 }
 
 .share-container {
