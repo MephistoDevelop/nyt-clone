@@ -158,6 +158,25 @@ br {
   margin-top: 36px;
 }
 
+.contents-container {
+  display: flex;
+  justify-content: flex-start;
+}
+.content-space {
+  width: 40%;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+.content-time-format {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+  letter-spacing: 0.3px;
+  color: #999;
+  margin: 10px 0px;
+}
+
 .disclaimer {
   font-size: 0.75rem;
   line-height: 1rem;
@@ -201,6 +220,11 @@ br {
   display: inline-flex;
   max-width: 25vw;
   padding-top: 2px;
+}
+
+.left-col {
+  min-width: 66%;
+  min-height: 100px;
 }
 
 .main-container {
@@ -267,6 +291,26 @@ br {
 .no-margin {
   margin: 0 !important;
 }
+.other-content-image {
+  font-size: 10px;
+  text-transform: none;
+  margin: 3px 0px 0px;
+  text-align: right;
+  color: rgb(153, 153, 153);
+  font-size: 0.6em;
+  line-height: 1.23em;
+}
+.other-content-title {
+  font-family: nyt-cheltenham;
+  font-weight: 500;
+  color: #121212;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: left;
+  vertical-align: baseline;
+  margin: 10px 0px;
+  font: inherit;
+}
 
 .right-col {
   width: 100%;
@@ -320,7 +364,20 @@ br {
   color: #333;
   vertical-align: baseline;
 }
-
+.tittle-content {
+  color: black;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  width: 100%;
+}
+.underline {
+  width: 100%;
+  height: 1px;
+  margin: 25px 5px;
+  background-color: #121212;
+}
 .video-container {
   padding: 0px 15px;
 }
