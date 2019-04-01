@@ -160,8 +160,9 @@ br {
 
 .contents-container {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
 }
+
 .content-space {
   width: 40%;
   margin-right: 20px;
@@ -231,6 +232,12 @@ br {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.main-other-content {
+  border-top: 1px solid black;
+  margin: 0 24px;
+  padding: 16px 0;
 }
 
 .left-col {
