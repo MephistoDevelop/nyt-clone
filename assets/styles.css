@@ -241,6 +241,7 @@ br {
 
 .subtitle {
   margin: 16px 0;
+  padding:0px 17px;
   font-weight: 800;
 }
 
@@ -248,6 +249,26 @@ br {
   font-size: 1.1875rem;
   line-height: 1.8125rem;
   color: #333;
+}
+.text-link {
+  text-decoration: underline;
+  color: #326891;
+}
+.text-format {
+  margin-bottom: 0.75rem;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  font-size: 1.0625rem;
+  line-height: 1.5rem;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: calc(100% - 40px);
+  max-width: 600px;
+  color: #333;
+  vertical-align: baseline;
+}
+.video-container{
+padding:0px 15px;
+}
 }
 
 #author {
