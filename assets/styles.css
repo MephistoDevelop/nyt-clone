@@ -202,6 +202,15 @@ br {
   align-items: center;
 }
 
+.left-col {
+  min-width: 66%;
+  min-height: 100px;
+}
+
+.more-content-container {
+  display: flex;
+}
+
 .navbar {
   z-index: 1;
   width: 100%;
