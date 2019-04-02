@@ -155,12 +155,27 @@ br {
 
 .author-container-footer {
   width: 100%;
-  background-color: gold;
   height: 10vh;
+  justify-content: center;
+  border-top: 1px solid lightgray;
+  margin: 20px 0px;
+  align-items: center;
+}
+.author-links {
+  color: rgb(153, 153, 153);
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  padding: 10px 0px;
+  text-decoration: none;
+  white-space: nowrap;
+  font-size: 0.7rem;
+  margin: 0px 8px;
+}
+
+.app-links {
+  border-top: 1px solid lightgray;
 }
 
 .categories {
-  width: 95%;
   align-content: flex-start;
 }
 
@@ -254,6 +269,9 @@ br {
   min-width: 15px;
   padding: 8px;
   background-color: #eee;
+}
+.icon-subscribe {
+  font-size: 13px;
 }
 
 .icon:hover {
@@ -379,8 +397,9 @@ br {
 }
 
 .subscribe {
-  border-left: 2px solid lightgray;
-  padding-left: 8px;
+  border-left: 1px solid lightgray;
+  padding-left: 15px;
+  width: 18%;
 }
 
 .subscribe-links {
@@ -390,7 +409,7 @@ br {
   text-decoration: none;
   text-transform: capitalize;
   width: 150px;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 700;
   height: 25px;
   line-height: 15px;
@@ -405,11 +424,14 @@ br {
   text-decoration: none;
   text-transform: capitalize;
   width: 150px;
-  font-size: 11px;
+  font-size: 9px;
   font-weight: 500;
   height: 23px;
   line-height: 21px;
   width: 100%;
+}
+.subtitle-link:hover {
+  text-decoration: underline;
 }
 
 .share-container {
@@ -440,6 +462,7 @@ br {
 .footer-content {
   width: 100%;
   min-height: 50vh;
+  justify-content: space-between;
 }
 
 .text-article {
