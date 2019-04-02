@@ -160,7 +160,7 @@ br {
 }
 
 .categories {
-  width: 70%;
+  width: 95%;
   align-content: flex-start;
 }
 
@@ -378,9 +378,38 @@ br {
   padding: 15px 0;
 }
 
-.right-section-footer {
-  width: 30%;
-  background-color: red;
+.subscribe {
+  border-left: 2px solid lightgray;
+  padding-left: 8px;
+}
+
+.subscribe-links {
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  font-family: nyt-franklin;
+  text-decoration: none;
+  text-transform: capitalize;
+  width: 150px;
+  font-size: 16px;
+  font-weight: 700;
+  height: 25px;
+  line-height: 15px;
+  padding-bottom: 0px;
+  width: 100%;
+}
+
+.subtitle-link {
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  font-family: nyt-franklin;
+  text-decoration: none;
+  text-transform: capitalize;
+  width: 150px;
+  font-size: 11px;
+  font-weight: 500;
+  height: 23px;
+  line-height: 21px;
+  width: 100%;
 }
 
 .share-container {
