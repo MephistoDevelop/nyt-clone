@@ -320,6 +320,10 @@ br {
   min-height: 100px;
 }
 
+.logo {
+  max-width: 15vw;
+}
+
 .more-content-container {
   display: flex;
   margin-right: 24px;
@@ -536,10 +540,6 @@ br {
 #bookmark-icon {
   min-width: 15px;
   padding: 8px;
-}
-
-#logo {
-  max-width: 15vw;
 }
 
 #navbar-section {
