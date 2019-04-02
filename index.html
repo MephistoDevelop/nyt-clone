@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lan="en">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <title>NYT-Clone</title>
@@ -12,7 +12,7 @@
     />
   </head>
   <body>
-    <section class="navbar">
+    <div class="navbar">
       <div class="left-navbar-container">
         <div class="container" style="">
           <i class="fas fa-bars navbar-icon"></i>
@@ -20,12 +20,14 @@
         </div>
         <p id="navbar-section">SPACE & COSMOS</p>
       </div>
-      <div><img id="logo" src="assets/logo.png" alt="" /></div>
+      <div>
+        <img alt="article images" id="logo" src="assets/logo.png" alt="" />
+      </div>
       <div class="container">
         <button class="navbar-button">SUBSCRIBE NOW</button>
         <button class="navbar-button">LOGIN</button>
       </div>
-    </section>
+    </div>
     <main class="main-container">
       <div class="container" style="min-width: 55%">
         <h1 id="title">
@@ -35,6 +37,7 @@
       </div>
       <div id="article-header" class="container">
         <img
+          alt="article image"
           id="article-img"
           src="https://static01.nyt.com/images/2014/03/18/science/space/18cosmos/18cosmos-superJumbo.jpg?quality=90&auto=webp"
         />
@@ -45,7 +48,7 @@
             uniformly and so quickly in the instant after the Big Bang 13.8
             billion years ago.
           </p>
-          <p id="credits">
+          <p class="credits">
             Rick Friedman for The New York Times
           </p>
         </div>
@@ -156,7 +159,11 @@
             which explains how the universe expanded so uniformly and so quickly
             in the instant after the Big Bang 13.8 billion years ago.
           </p>
-          <img class="article-picture" src="assets/image1-article.png" />
+          <img
+            alt=" article image "
+            class="article-picture"
+            src="assets/image1-article.png"
+          />
           <p class="subheading">By LARRY BUCHANAN and JONATHAN CORUM</p>
           <p class="text-format">
             Dr. Kovac said the chance that the results were a fluke was only one
@@ -190,7 +197,6 @@
               width="560"
               height="315"
               src="https://www.youtube.com/embed/ZlfIVEy_YOA"
-              frameborder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
             ></iframe>
@@ -264,6 +270,7 @@
           </p>
           <div class="figure">
             <img
+              alt="article image"
               src="assets/image2-article.jpeg"
               class="article-picture no-margin"
             />
@@ -274,7 +281,7 @@
                 being wrenched violently apart at its birth.CreditSteffen
                 Richter/Associated Press
               </p>
-              <p id="credits">
+              <p class="credits">
                 Steffen Richter/Associated Press
               </p>
             </div>
@@ -377,13 +384,13 @@
           <div class="tittle-content">More in Space & Cosmos</div>
           <div class="contents-container">
             <div style="flex-direction: column;" class="content-space">
-              <img
+              <img alt="article image"
                 src="https://static01.nyt.com/images/2019/04/01/science/01MARS1b/01MARS1b-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale"
                 width="100%;"
               />
-              <section class="other-content-image">
+              <div class="other-content-image">
                 ESA/DLR/FU Berlin/Justin Cowart
-              </section>
+              </div>
               <h2 class="other-content-title">
                 Something on Mars Is Producing Gas Usually Made by Living Things
                 on Earth
@@ -391,13 +398,13 @@
               <p class="content-time-format ">2h ago</p>
             </div>
             <div style="flex-direction: column;" class="content-space">
-              <img
+              <img alt="article image"
                 src="https://static01.nyt.com/images/2019/04/02/science/28TB-SATURN1/28TB-SATURN1-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale"
                 width="100%;"
               />
-              <section class="other-content-image">
+              <div class="other-content-image">
                 ESA/DLR/FU Berlin/Justin Cowart
-              </section>
+              </div>
               <h2 class="other-content-title">
                 Something on Mars Is Producing Gas Usually Made by Living Things
                 on Earth
@@ -411,13 +418,13 @@
           <div class="contents-container">
             <br />
             <div style="flex-direction: column;" class="content-space">
-              <img
+              <img alt="article image"
                 src="https://static01.nyt.com/images/2019/03/26/science/26SCI-SKYTEL1/26SCI-SKYTEL1-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale"
                 width="100%;"
               />
-              <section class="other-content-image">
+              <div class="other-content-image">
                 ESA/DLR/FU Berlin/Justin Cowart
-              </section>
+              </div>
               <div></div>
               <h2 class="other-content-title">
                 Something on Mars Is Producing Gas Usually Made by Living Things
@@ -426,13 +433,13 @@
               <p class="content-time-format ">2h ago</p>
             </div>
             <div style="flex-direction: column;" class="content-space">
-              <img
+              <img alt="article image"
                 src="https://static01.nyt.com/images/2019/03/19/science/19SCI-CUBESATS-promo1/19SCI-CUBESATS-promo1-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale"
                 width="100%;"
               />
-              <section class="other-content-image">
+              <div class="other-content-image">
                 ESA/DLR/FU Berlin/Justin Cowart
-              </section>
+              </div>
               <h2 class="other-content-title">
                 Something on Mars Is Producing Gas Usually Made by Living Things
                 on Earth
@@ -440,13 +447,13 @@
               <p class="content-time-format ">2h ago</p>
             </div>
             <div style="flex-direction: column;" class="content-space">
-              <img
+              <img alt="article image"
                 src="https://static01.nyt.com/images/2019/03/19/science/13TB-MOONROCKS1/13TB-MOONROCKS1-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale"
                 width="100%;"
               />
-              <section class="other-content-image">
+              <div class="other-content-image">
                 ESA/DLR/FU Berlin/Justin Cowart
-              </section>
+              </div>
               <h2 class="other-content-title">
                 Something on Mars Is Producing Gas Usually Made by Living Things
                 on Earth
@@ -460,7 +467,7 @@
           <div class="contents-container">
             <br />
             <div style="flex-direction: column;" class="content-space">
-              <img
+              <img alt="article image"
                 src="https://static01.nyt.com/images/2019/03/31/realestate/29organizing-seri1/29organizing-seri1-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale"
                 width="100%;"
               />
@@ -474,7 +481,7 @@
               <p class="content-time-format ">March 29</p>
             </div>
             <div style="flex-direction: column;" class="content-space">
-              <img
+              <img alt="article image"
                 src="https://static01.nyt.com/images/2018/07/05/world/05Scotland-Dispatch4/05Scotland-Dispatch4-threeByTwoSmallAt2X-v2.jpg?quality=75&auto=webp&disable=upscale"
                 width="100%;"
               />
@@ -488,7 +495,7 @@
               <p class="content-time-format ">2h ago</p>
             </div>
             <div style="flex-direction: column;" class="content-space">
-              <img
+              <img alt="article image"
                 src="https://static01.nyt.com/images/2019/03/27/parenting/27-parenting-newsletter-1/27-parenting-newsletter-1-threeByTwoSmallAt2X-v3.jpg?quality=75&auto=webp&disable=upscale"
                 width="100%;"
               />
@@ -538,7 +545,7 @@
     </div>
     <div class="footer-container">
       <div class="footer-header">
-        <img id="logo" src="assets/logo.png" />
+        <img alt="article image" id="logo" src="assets/logo.png" />
         <p class="text-link">Go to Home Page »</p>
       </div>
       <div class="container footer-content">
@@ -663,34 +670,41 @@
               science
             </p>
           </div>
-
         </div>
         <div class="col subscribe">
-          <p class="category-name">Subscribe </p>
-        <p class="subscribe-links"> <i class="far fa-newspaper  icon-subscribe"></i>  Home delivery</p>
-        <p class="subscribe-links"> <i  class="fab fa-tumblr icon-subscribe"></i>Delivered subscriptions</p>
-        <p class="subscribe-links"> <i class="fas fa-th-large icon-subscribe"></i> Crossword</p>
-        <p class="subscribe-links"><i class="fas fa-utensils icon-subscribe"></i> Cooking</p>
-        <p class="subtitle-link"> email newsletters </p>
-        <p  class="subtitle-link">corporate  subscriptions</p>
-        <p class="subtitle-link" >education rate</p>
-        <div class="col app-links">
-          <p class="subtitle-link">mobile applications</p>
-         <p class="subtitle-link"> replica edition</p>
-        </div>
+          <p class="category-name">Subscribe</p>
+          <p class="subscribe-links">
+            <i class="far fa-newspaper  icon-subscribe"></i> Home delivery
+          </p>
+          <p class="subscribe-links">
+            <i class="fab fa-tumblr icon-subscribe"></i>Delivered subscriptions
+          </p>
+          <p class="subscribe-links">
+            <i class="fas fa-th-large icon-subscribe"></i> Crossword
+          </p>
+          <p class="subscribe-links">
+            <i class="fas fa-utensils icon-subscribe"></i> Cooking
+          </p>
+          <p class="subtitle-link">email newsletters</p>
+          <p class="subtitle-link">corporate subscriptions</p>
+          <p class="subtitle-link">education rate</p>
+          <div class="col app-links">
+            <p class="subtitle-link">mobile applications</p>
+            <p class="subtitle-link">replica edition</p>
+          </div>
         </div>
       </div>
       <div class="container author-container-footer">
-         <p  class="author-links">© 2019 The New York Times Company</p>
-         <p class="author-links"> Contact Us  Work with us</p>
-         <p class="author-links">Advertise Your Ad</p>
-         <p class="author-links">Choices Privacy</p>
-         <p class="author-links"> Terms of Service</p>
-         <p class="author-links">Terms of Sale</p>
-         <p class="author-links">Site</p>
-         <p class="author-links">Map</p>
-         <p class="author-links">Help</p>
-         <p class="author-links">Subscriptions</p>
+        <p class="author-links">© 2019 The New York Times Company</p>
+        <p class="author-links">Contact Us Work with us</p>
+        <p class="author-links">Advertise Your Ad</p>
+        <p class="author-links">Choices Privacy</p>
+        <p class="author-links">Terms of Service</p>
+        <p class="author-links">Terms of Sale</p>
+        <p class="author-links">Site</p>
+        <p class="author-links">Map</p>
+        <p class="author-links">Help</p>
+        <p class="author-links">Subscriptions</p>
       </div>
     </div>
   </body>

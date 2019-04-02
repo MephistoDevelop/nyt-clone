@@ -229,6 +229,12 @@ br {
   margin: 10px 0px;
 }
 
+.credits {
+  color: #888;
+  font-size: 0.75rem;
+  letter-spacing: 0.01rem;
+}
+
 .disclaimer {
   font-size: 0.75rem;
   line-height: 1rem;
@@ -530,12 +536,6 @@ br {
 #bookmark-icon {
   min-width: 15px;
   padding: 8px;
-}
-
-#credits {
-  color: #888;
-  font-size: 0.75rem;
-  letter-spacing: 0.01rem;
 }
 
 #logo {
