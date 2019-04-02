@@ -171,6 +171,11 @@ br {
   margin: 0px 8px;
 }
 
+.article-img {
+  width: 100%;
+  margin-bottom: 8px;
+}
+
 .app-links {
   border-top: 1px solid lightgray;
 }
@@ -523,11 +528,6 @@ br {
   font-size: 0.9375rem;
   line-height: 1.25rem;
   margin-bottom: 24px;
-}
-
-#article-img {
-  width: 253px;
-  margin-bottom: 8px;
 }
 
 #article-header {
