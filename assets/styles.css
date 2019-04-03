@@ -244,8 +244,7 @@ br {
   font-size: 0.75rem;
   line-height: 1rem;
   color: #999;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin: 0 20px;
   margin-bottom: 0.75rem;
 }
 
@@ -508,8 +507,7 @@ br {
 }
 
 .text-format {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 0 20px;
   margin-bottom: 0.75rem;
   font-family: nyt-imperial, georgia, "times new roman", times, serif;
   font-size: 1.0625rem;
