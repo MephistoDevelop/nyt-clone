@@ -1,2 +1,1 @@
-linters: 
-stylelint:
+linters: stylelint:
