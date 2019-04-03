@@ -161,6 +161,7 @@ br {
   margin: 20px 0px;
   align-items: center;
 }
+
 .author-links {
   color: rgb(153, 153, 153);
   font-family: nyt-franklin, helvetica, arial, sans-serif;
@@ -178,6 +179,10 @@ br {
 
 .app-links {
   border-top: 1px solid lightgray;
+}
+
+.bold {
+  font-weight: 800;
 }
 
 .categories {
@@ -252,6 +257,18 @@ br {
   margin: 2.6875rem auto;
 }
 
+.figure-caption {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 300;
+  color: #000000;
+  padding-right: 8px;
+}
+
+.figure .row {
+  margin-top: 15%;
+}
+
 .footer-container {
   display: flex;
   flex-direction: column;
@@ -280,6 +297,7 @@ br {
   padding: 8px;
   background-color: #eee;
 }
+
 .icon-subscribe {
   font-size: 13px;
 }
@@ -460,6 +478,7 @@ br {
   line-height: 21px;
   width: 100%;
 }
+
 .subtitle-link:hover {
   text-decoration: underline;
 }
@@ -552,12 +571,12 @@ br {
 }
 
 #background-image {
-  width: 600px;
-  height: 550px;
-  border: 1px solid blue;
+  width: 100%;
+  min-height: 55vh;
+  border: 1px solid white;
   background: url("image1-article.png");
   background-size: cover;
-  z-index: 1;
+  background-repeat: no-repeat;
 }
 
 #bookmark-icon {
