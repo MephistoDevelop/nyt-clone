@@ -6,7 +6,7 @@
 
 Simple NYT article page Clone made with HMTL and CSS (Flexbox)
 
-![screenshot](./screenshotnyt.gif)
+![screenshot](./screenshownyt.gif)
 
 ## Built With HTML,CSS,FlexBox
 
